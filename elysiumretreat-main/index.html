@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium Retreat - Thessaloniki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            
+            <!-- 1. Λογότυπο (Αριστερά) -->
+            <div class="logo">
+                <a href="#hero">Elysium <span>RETREAT</span></a>
+            </div>
+            
+            <!-- Hamburger (για κινητά) -->
+            <div class="hamburger-menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+    
+            <!-- 2. & 3. Μενού (Κέντρο) & Κουμπί (Δεξιά) -->
+            <nav class="nav-links">
+                <!-- Η λίστα με τα links -->
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#parking">Parking</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+    
+                <!-- Το κουμπί βγήκε ΕΚΤΟΣ λίστας για να πάει δεξιά -->
+                <a href="#contact" class="btn-book-nav">Book Your Stay</a>
+            </nav>
+    
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-text">
+                <!-- <img src="_NVD6519ok.JPG" class="hero-background-image" alt="Living room of Elysium Retreat"> -->
+                <!-- ΑΛΛΑΓΗ ΕΔΩ -->
+                <h1>Stay in the Heart. Live the City.</h1>
+                <p>Experience authentic Greek hospitality in a meticulously designed space that invites you to breathe, relax, and feel like home.</p>
+            </div>
+        </section>
+
+        <!-- 3D Tour Section -->
+        <section id="tour">
+            <div class="container">
+                <h2>Explore the 3D Space</h2>
+                <div class="matterport-embed">
+                    <iframe src="https://my.matterport.com/show/?m=gnCs6bcha8J" width="100%" height="600" frameborder="0" allowfullscreen allow="vr"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section id="gallery">
+             <div class="slideshow-container">
+                <div class="mySlides fade"><img src="1.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="2.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="3.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="4.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="5.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="6.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="7.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="8.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="9.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="10.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="11.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="12.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="13.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="14.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="15.jpg" style="width:100%"></div>
+                <div class="mySlides fade"><img src="16.jpg" style="width:100%"></div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+
+        <!-- Amenities Section -->
+        <section id="amenities">
+            <div class="container">
+                <h2>Everything You Need</h2>
+                <div class="amenities-grid">
+                    <div class="amenity-card"><h3>70 sq.m. Space</h3><p>Spacious apartment designed for ultimate comfort.</p></div>
+                    <div class="amenity-card"><h3>King Size Bed</h3><p>Premium anatomic mattress for restful sleep.</p></div>
+                    <div class="amenity-card"><h3>High-Speed Wi-Fi</h3><p>Free unlimited internet throughout.</p></div>
+                    <div class="amenity-card"><h3>Full Kitchen</h3><p>Fully equipped kitchen so premium entertainment, every amenity has been carefully selected.</p></div>
+                    <div class="amenity-card"><h3>Smart Entertainment</h3><p>50" TV with Netflix & streaming.</p></div>
+                    <div class="amenity-card"><h3>Nespresso Machine</h3><p>Premium coffee with capsules included.</p></div>
+                    <div class="amenity-card"><h3>Climate Control</h3><p>Air conditioning & heating.</p></div>
+                    <div class="amenity-card"><h3>Self Check-in</h3><p>Contactless keybox entry.</p></div>
+                    <div class="amenity-card"><h3>Washer & Dryer</h3><p>Laundry facilities included.</p></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Us Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Elysium Retreat</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Philosophy</h3>
+                        <p>We embrace the principle of minimalist design—not as austerity, but as intentionality. Every element in Elysium Retreat has been carefully selected to serve both function and beauty.</p>
+                    </div>
+                    <div class="about-text">
+                        <h3>Design Inspiration</h3>
+                        <p>The suites' design draws inspiration from Mediterranean aesthetics—natural materials, abundant light, and a harmonious connection between interior and exterior spaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Parking Section -->
+        <section id="parking">
+             <div class="container">
+                <h2>Parking</h2>
+                <p class="area-intro">The apartment is located in the heart of the city, with convenient on-site parking options.</p>
+                
+
+                 <div class="area-grid">
+                    <div class="area-card"><h4>Parking Kiritsi</h4><p><ion-icon name="location-outline"></ion-icon> 5m</p><p><ion-icon name="time-outline"></ion-icon> 7:30-00:00 (exc. Sun)</p><p><ion-icon name="logo-euro"></ion-icon> €5/1st hr, €3/next. €17/24h</p><a href="https://maps.app.goo.gl/YWB3p3wx26oY8tXQ7" target="_blank">View on Google Maps <ion-icon name="open-outline"></ion-icon></a></div>
+                    <div class="area-card"><h4>Parking Βήκας ΕΠΕ</h4><p><ion-icon name="location-outline"></ion-icon> 170m</p><p><ion-icon name="time-outline"></ion-icon> 7:30-1:00 (exc. Sun)</p><p><ion-icon name="logo-euro"></ion-icon> €5/1st hr, €3/2nd, €2/next. €20/24h</p><a href="https://maps.app.goo.gl/HQ7tFxrjCqMEcin96" target="_blank">View on Google Maps <ion-icon name="open-outline"></ion-icon></a></div>
+                    <div class="area-card"><h4>AMYNIS PARKING</h4><p><ion-icon name="location-outline"></ion-icon> 170m</p><p><ion-icon name="time-outline"></ion-icon> 7:00-00:00</p><p><ion-icon name="logo-euro"></ion-icon> €5/1st hr, €2/next. €20/24h</p><a href="https://maps.app.goo.gl/BaMmTbi8gFYfYnP36" target="_blank">View on Google Maps <ion-icon name="open-outline"></ion-icon></a></div>
+                    <div class="area-card"><h4>Central Parking Thessaloniki</h4><p><ion-icon name="location-outline"></ion-icon> 450m</p><p><ion-icon name="time-outline"></ion-icon> 7:30-1:00 (exc. Sun)</p><p><ion-icon name="logo-euro"></ion-icon> Complex rates. €20/24h</p><a href="https://maps.app.goo.gl/YwaFqfVoKv4Zwj7z5" target="_blank">View on Google Maps <ion-icon name="open-outline"></ion-icon></a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Booking Section -->
+        <section id="contact">
+            <div class="container">
+                <h2>Ready to Experience Tranquility?</h2>
+                <div class="booking-options">
+                    <div class="booking-card">
+                        <h3>Book via Booking.com</h3>
+                        <p>Reserve through a trusted platform with instant confirmation.</p>
+                        <a href="https://www.booking.com/Share-kMgzIPN" class="btn-book-main">Book on Booking.com</a>
+                    </div>
+                    <div class="booking-card direct-contact">
+                        <h3>Direct Contact</h3>
+                        <p><strong>Email:</strong> elysiumretreat@gmail.com</p>
+                        <p><strong>Phone / WhatsApp:</strong> +30 697 807 6850</p>
+                        <small>(Recommended for better price)</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Elysium Retreat, Thessaloniki, Greece. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
